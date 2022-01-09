@@ -20,13 +20,10 @@ const links: Link[] = [
 ];
 
 export default function Socials() {
-  return (
-    <div className="flex gap-5">
-      {links.map((l) => (
-        <a className="hover:text-blue-400" href={l.href}>
-          {l.text}
-        </a>
-      ))}
-    </div>
-  );
+  const anchors = links.map((link) => (
+    <a key={link.text} className="hover:text-blue-400" href={link.href}>
+      {link.text}
+    </a>
+  ));
+  return <div className="flex gap-5">{anchors}</div>;
 }

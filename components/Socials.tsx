@@ -11,7 +11,7 @@ const links: Link[] = [
   },
   {
     text: "LinkedIn",
-    href: "www.linkedin.com/in/adam-zanon",
+    href: "https://www.linkedin.com/in/adam-zanon",
   },
   {
     text: "Twitter",

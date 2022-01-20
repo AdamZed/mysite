@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <>
       <Header pageName="Home" />
       <div
         className="bg-gray-900 w-100 h-screen
@@ -13,10 +13,10 @@ const Home: NextPage = () => {
         text-white font-mono"
       >
         <h1 className="font-bold text-4xl">Adam Zanon</h1>
-        <Socials></Socials>
+        <Socials />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
